@@ -11,13 +11,13 @@ Run
 Development
 
   Start Node server
-    > cd web
-    > npm run dev
+    __cd web
+    __npm run dev
 
   On another terminal instance:
 
   Start Django Server
-    > python manage.py runserver 0.0.0.0:8000
+    __python manage.py runserver 0.0.0.0:8000
 
   Access app through
   **localhost:8000**
