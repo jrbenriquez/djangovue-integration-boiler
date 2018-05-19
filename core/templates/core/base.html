@@ -1,0 +1,10 @@
+{% load render_bundle from webpack_loader %}
+
+<html>
+  <body>
+    {% block content %}
+    {% endblock %}
+    Test
+    {% render_bundle 'app' %}
+  </body>
+</html>
