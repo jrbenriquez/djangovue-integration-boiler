@@ -2,9 +2,22 @@
 Django and Vue integration boilerplate. Uses only one URL for deployment for both Django and Vue - referenced from ariera.github.io
 
 
-## Setup Info
+## Setup/Project Info
 
 Node server for Vue runs at 0.0.0.0:3000
+
+Vue app is rendered/loaded using django-webpack-loader
+i.e
+  ### base.html
+    
+    {% load render_bundle from webpack_loader %}
+
+    <html>
+      <body>
+        <div id="app"></div>
+        {% render_bundle 'app' %}
+      </body>
+    </html>
 
 ## Run
 
