@@ -10,14 +10,14 @@ Node server for Vue runs at 0.0.0.0:3000
 
 Development
 
-  Start Node server
-    **cd web
-    **npm run dev
+  ### Start Node server
+    **cd web**
+    **npm run dev**
 
   On another terminal instance:
 
-  Start Django Server
-    **python manage.py runserver 0.0.0.0:8000
+  ### Start Django Server
+    **python manage.py runserver 0.0.0.0:8000**
 
-  Access app through
+  ### Access app through
   **localhost:8000**
