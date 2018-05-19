@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'jrbenriquez.urls'
+ROOT_URLCONF = 'djangovue.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'jrbenriquez.wsgi.application'
+WSGI_APPLICATION = 'djangovue.wsgi.application'
 
 
 # Database
